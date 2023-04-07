@@ -10,7 +10,8 @@ Open [https://movie-app-ashy-phi.vercel.app/](https://movie-app-ashy-phi.vercel.
 
 Open [https://github.com/Abhishek97Ojha/Movie-App](https://github.com/Abhishek97Ojha/Movie-App) to view it in your browser.
 
-# Api provider [https://www.themoviedb.org/](https://www.themoviedb.org/)
+# Api provider 
+[https://www.themoviedb.org/](https://www.themoviedb.org/)
 For the free version, we can only make 5 requests per minute.
 
 ## Dependencies :
@@ -40,7 +41,28 @@ For the free version, we can only make 5 requests per minute.
 - useEffect
 - useParam
 
-**Functional Components are used in the app** (*Search, Header, MovieCard, MovieList, Trending, Home, MovieDetails*)
+## Functional Components used in the app 
+
+### Search Component : 
+This Component provides search functionality, by filtering the movie-list based on the input-box value enter by the user.
+
+### Header Component:
+This Component provides the navbar which contains links for navigating from one page to another.
+
+### MovieCard Component:
+This component provides the name and poster of a movie, on-clicking on the movie card it will navigate user to movie details page. 
+
+### MovieList Component:
+This component provides all the movie cards based on their category.
+ 
+### Trending Component : 
+This component provides trending movies list on the homepage, where user can find trending movies of the week.
+
+### Home Component:
+This component provides homepage of the web application, where user can find navbar consisting of different links, carousel of some movies, and trending movie section.
+
+### MovieDetails Component : 
+This component provides details of movies like movie title, poster, release date, rating, votes, length, genre and overview to user.
 
 ## Description :
 
