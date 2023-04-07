@@ -1,6 +1,7 @@
-# Movie App
+<h1 align="center">Movie App</h1>
 
-This project was created using HTML, CSS , JS and React JS.
+<p align="center">This project was created using HTML, CSS , JS and React JS.</p>
+
 
 ## Hosted Link
 
@@ -10,7 +11,7 @@ Open [https://movie-app-ashy-phi.vercel.app/](https://movie-app-ashy-phi.vercel.
 
 Open [https://github.com/Abhishek97Ojha/Movie-App](https://github.com/Abhishek97Ojha/Movie-App) to view it in your browser.
 
-# Api provider 
+## Api provider 
 [https://www.themoviedb.org/](https://www.themoviedb.org/)
 For the free version, we can only make 5 requests per minute.
 
@@ -70,31 +71,31 @@ This is a React-based Movie Application, a web application built using React-Js,
 
 The user interface is designed to be visually appealing and user-friendly, providing users with a seamless experience. The search functionality allows users to easily find movies based on their title, and the trending section provides users with information on the latest movies that are currently trending.
 
-## Homepage :
+### Homepage :
 ![Homepage](https://user-images.githubusercontent.com/73434349/230671534-5409d708-2c36-47e9-9f44-32a40773de86.png)
 
 
-## Trending :
+### Trending :
 ![Trending](https://user-images.githubusercontent.com/73434349/230671622-49b434d2-a0ea-4af4-bc4d-355e87e84e01.png)
 
 
-## Popular Page :
-![Popular](https://user-images.githubusercontent.com/73434349/230671653-1adcde61-0aca-4988-bb04-aed2df217f26.png)
+### Popular Page :
+![Popular](https://user-images.githubusercontent.com/73434349/230672580-2335a522-1c59-4d73-8661-47221ae8f0eb.png)
 
 
-## Top Rated Page :
-![Top Rated](https://user-images.githubusercontent.com/73434349/230671688-b3476878-1d5f-4c77-802c-57dbf649798f.png)
+### Top Rated Page :
+![Top Rated](https://user-images.githubusercontent.com/73434349/230672611-f28af9a5-eba6-4c84-899d-420c14a6d53b.png)
 
 
-## Upcoming Page : 
-![Upcoming](https://user-images.githubusercontent.com/73434349/230671715-d211c7c4-2496-4761-8f4a-4ece41e5a3bf.png)
+### Upcoming Page : 
+![Upcoming](https://user-images.githubusercontent.com/73434349/230672675-3b936859-c11a-4a27-953e-520af2789ce3.png)
 
 
-## Search Page :
+### Search Page :
 ![Search](https://user-images.githubusercontent.com/73434349/230671744-b168ea73-6006-45c2-8f61-cd60a52c0039.png)
 
 
-## Movie Details Page :
+### Movie Details Page :
 ![Movie Details](https://user-images.githubusercontent.com/73434349/230671813-2eb8b29e-448d-4849-9887-35b046391ea2.png)
 
 
