@@ -1,15 +1,17 @@
-import React, { useContext, useEffect } from "react";
+import React, { createContext, useContext, useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { globalData } from "../../App";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import MovieList from "../../components/movieList/MovieList";
+
 import './home.css'
+export const MyContext = createContext();
 const Home = () => {
   const context = useContext(globalData);
   const [allMovies, setAllMovies] = useState(context);
-  console.log(allMovies);
+  // console.log(allMovies);
   useEffect(() => {
     setAllMovies([
       ...context.popularMoviesFromApi,
@@ -18,7 +20,6 @@ const Home = () => {
     ]);
   }, [context]);
   return (
-    <>
       <div className="home">
         <div className="poster">
           <Carousel
@@ -59,7 +60,6 @@ const Home = () => {
           <MovieList />
         </div>
       </div>
-    </>
   );
 };
 

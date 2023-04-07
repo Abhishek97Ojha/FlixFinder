@@ -2,7 +2,7 @@ export const getMovieList = (setMoviesFromApi, category) => {
   fetch(
     `https://api.themoviedb.org/3/movie/${
       category ? category : "popular"
-    }?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`
+    }?api_key=d09a43e3fbd3d04d2631f0551bdedc80&language=en-US`
   )
     .then((res) => {
       return res.json();
@@ -13,7 +13,7 @@ export const getMovieList = (setMoviesFromApi, category) => {
 };
 export const getMovieListByID = (id, setMoviesFromApi) => {
   fetch(
-    `https://api.themoviedb.org/3/movie/${id}?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`
+    `https://api.themoviedb.org/3/movie/${id}?api_key=d09a43e3fbd3d04d2631f0551bdedc80&language=en-US`
   )
     .then((res) => {
       return res.json();
@@ -23,18 +23,17 @@ export const getMovieListByID = (id, setMoviesFromApi) => {
     });
 };
 
-export const searchedMovies = (e, setstate, context) => {
-  const arr = [
-    ...context.popularMoviesFromApi,
-    ...context.topRatedMoviesFromApi,
-    ...context.upcomingMoviesFromApi,
-  ];
-
-  const filteredarr = arr.filter((ele)=>{
-    if((ele.original_title.toUpperCase()).includes(e.target.value.toUpperCase())){
+export const searchedMovies = (name, setState, context) => {
+ let arr =[
+  ...context.popularMoviesFromApi,
+  ...context.topRatedMoviesFromApi,
+  ...context.upcomingMoviesFromApi
+ ];
+  const filteredArr = arr.filter((ele)=>{
+    if((ele.original_title.toUpperCase()).includes(name.toUpperCase())){
       return ele
     }
     return null
   })
-  setstate(filteredarr)
+  setState(filteredArr)
 };

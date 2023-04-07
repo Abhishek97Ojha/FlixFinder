@@ -7,6 +7,7 @@ import { createContext } from "react";
 import { getMovieList } from "./functions/GetMovieList";
 import MovieList from "./components/movieList/MovieList";
 import MovieDetails from "./pages/movieDetails/MovieDetails";
+import Search from "./components/search/Search";
 
 export const globalData = createContext();
 
@@ -28,6 +29,9 @@ function App() {
         popularMoviesFromApi: popularMoviesFromApi,
         topRatedMoviesFromApi: topRatedMoviesFromApi,
         upcomingMoviesFromApi: upcomingMoviesFromApi,
+        setPopularMoviesFromApi : setPopularMoviesFromApi,
+        setUpcomingMoviesFromApi : setUpcomingMoviesFromApi,
+        setTopRatedMoviesFromApi: setTopRatedMoviesFromApi,
         state, setState
       }}
     >
@@ -38,6 +42,7 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="movie/:id" element={<MovieDetails />}></Route>
             <Route path="movies/:category" element={<MovieList />}></Route>
+            <Route path="search" element={<Search/>}></Route>
             <Route path="/*" element={<h1>Page Not Found</h1>}></Route>
           </Routes>
         </Router>

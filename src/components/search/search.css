@@ -1,0 +1,49 @@
+.search{
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.search > .input{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.search > .input > select{
+    font-size: large;
+    width: 13%;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.search > .input > input{
+    width: 50%;
+    padding-left: 1rem;
+    font-size: large;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+.search > .input > button{
+    width: 13%;
+    font-size: large;
+    cursor: pointer;
+    /* background-color: black; */
+    border: none;
+    /* color: white; */
+}
+.search > .input > button:hover{
+    transform: scale(1.05);
+}
+.search > .input > button:active{
+    transform: translateY(0.1px);
+}

@@ -1,7 +1,6 @@
 import React ,{useContext} from "react";
 import { Link } from "react-router-dom";
 import { globalData } from "../../App";
-import { searchedMovies } from "../../functions/GetMovieList";
 import "./header.css";
 
 const Header = () => {
@@ -20,13 +19,7 @@ const Header = () => {
             <Link to="/movies/top_rated">Top Rated</Link>
             <Link to="/movies/upcoming">Upcoming</Link>
           </div>
-          <input
-            onChange={(e) => {
-              searchedMovies(e, context.state, context.setState, context);
-            }}
-            type="text"
-            placeholder="Search Here"
-          />
+          <Link to="search">Search</Link>
         </div>
       </div>
     </>

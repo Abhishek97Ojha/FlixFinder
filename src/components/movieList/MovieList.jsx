@@ -2,14 +2,13 @@ import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { globalData } from "../../App";
 import MovieCard from "../moviecard/MovieCard";
-
+import './movielist.css'
 const MovieList = ({ allMovies }) => {
   const context = useContext(globalData);
   const { category } = useParams();
   return (
     <>
       <div className="movielist">
-        <h2> {category && category} </h2>
         <div className="movie_list">
           <MovieCard
             allMovies={
