@@ -9,6 +9,7 @@ const MovieList = ({ allMovies }) => {
   return (
     <>
       <div className="movielist">
+        <h1>{category && category}</h1>
         <div className="movie_list">
           <MovieCard
             allMovies={

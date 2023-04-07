@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using HTML, CSS , JS and React JS.
 
-## Available Scripts
+## Hosted Link
 
-In the project directory, you can run:
+Open [https://movie-app-ashy-phi.vercel.app/](https://movie-app-ashy-phi.vercel.app/) to view it in your browser.
 
-### `npm start`
+## Github Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://github.com/Abhishek97Ojha/Movie-App](https://github.com/Abhishek97Ojha/Movie-App) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Api provider [https://www.themoviedb.org/](https://www.themoviedb.org/)
+For the free version, we can only make 5 requests per minute.
 
-### `npm test`
+## Dependencies :
+- React *("^18.2.0")*
+- React-Dom *("^18.2.0")*
+- React-Scripts *(5.0.1")*
+- React-responsive-carousel *(^3.2.23)*,
+- React-Router: *(^6.10.0)*,
+- React-Router-Dom: *(^6.10.0)*,
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools Used :
 
-### `npm run build`
+- Props
+- States
+- Context Api
+- UseEffect
+- UseParam
+- Link
+- Browser Router
+- Routes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Hooks Used :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- createContext
+- useState
+- useContext
+- useEffect
+- useParam
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Functional Components are used in the app** (*Search, Header, MovieCard, MovieList, Trending, Home, MovieDetails*)
 
-### `npm run eject`
+## Description :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is a React-based Movie Application, a web application built using React-Js, Html, Css, and Javascript that allows users to search for movies by title and view trending movies. The application utilizes Function Components, Hooks, Higher-order functions, Routing, etc.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The user interface is designed to be visually appealing and user-friendly, providing users with a seamless experience. The search functionality allows users to easily find movies based on their title, and the trending section provides users with information on the latest movies that are currently trending.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Homepage :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Trending :
 
-## Learn More
+## Popular Page :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Top Rated Page :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Upcoming Page : 
 
-### Code Splitting
+## Search Page :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Movie Details Page :
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Video Explanation :
+[https://drive.google.com/file/d/1GVTTOSereTIDV0GIFihI15AhOqdlRAaA/view](https://drive.google.com/file/d/1GVTTOSereTIDV0GIFihI15AhOqdlRAaA/view)

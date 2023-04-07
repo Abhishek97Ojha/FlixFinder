@@ -1,3 +1,7 @@
 .movie_list{
     margin-top: 2rem;
 }
+.movielist > h1{
+    text-align : center;
+    text-transform: uppercase;
+}
