@@ -24,16 +24,28 @@ export const getMovieListByID = (id, setMoviesFromApi) => {
 };
 
 export const searchedMovies = (name, setState, context) => {
- let arr =[
-  ...context.popularMoviesFromApi,
-  ...context.topRatedMoviesFromApi,
-  ...context.upcomingMoviesFromApi
- ];
-  const filteredArr = arr.filter((ele)=>{
-    if((ele.original_title.toUpperCase()).includes(name.toUpperCase())){
-      return ele
-    }
-    return null
-  })
-  setState(filteredArr)
-};
+//  let arr =[
+//   ...context.popularMoviesFromApi,
+//   ...context.topRatedMoviesFromApi,
+//   ...context.upcomingMoviesFromApi
+//  ];
+let arr = []
+ fetch(`https://api.themoviedb.org/3/search/movie?api_key=d09a43e3fbd3d04d2631f0551bdedc80&query=${name}`)
+.then((res) => {
+  return res.json();
+})
+.then((data) => {
+  arr.push(...data.results)
+  // console.log(arr)
+  setState(arr)
+});
+}
+//   let filteredArr = arr.filter((ele)=>{
+//     if((ele.original_title).includes(name)){
+//       return ele
+//     }
+//     return ele
+//   })
+//   console.log(arr)
+//   setState(arr)
+// };

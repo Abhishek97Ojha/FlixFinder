@@ -29,9 +29,6 @@ function App() {
         popularMoviesFromApi: popularMoviesFromApi,
         topRatedMoviesFromApi: topRatedMoviesFromApi,
         upcomingMoviesFromApi: upcomingMoviesFromApi,
-        setPopularMoviesFromApi : setPopularMoviesFromApi,
-        setUpcomingMoviesFromApi : setUpcomingMoviesFromApi,
-        setTopRatedMoviesFromApi: setTopRatedMoviesFromApi,
         state, setState
       }}
     >

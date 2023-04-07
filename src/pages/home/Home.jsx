@@ -7,6 +7,7 @@ import { useState } from "react";
 import MovieList from "../../components/movieList/MovieList";
 
 import './home.css'
+import Trending from "../../components/movieList/Trending";
 export const MyContext = createContext();
 const Home = () => {
   const context = useContext(globalData);
@@ -57,7 +58,8 @@ const Home = () => {
               );
             })}
           </Carousel>
-          <MovieList />
+          <h1>Trending</h1>
+          <Trending/>
         </div>
       </div>
   );

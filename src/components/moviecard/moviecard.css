@@ -20,7 +20,9 @@
   overflow: hidden;
   
 }
-
+.card:hover{
+  transform: scale(1.05);
+}
 .cardImg {
   height: 300px;
 }

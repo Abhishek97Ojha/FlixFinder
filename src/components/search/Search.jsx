@@ -21,16 +21,11 @@ const Search = () => {
                 setName("")
                 
             }}>Search</button>
-            {console.log(context.state)}
+            
       </div>
     </div>
     <div>
-      {
-        context.state.map((ele)=>{
-          return( <Link to= {`/movie/${ele.id}`}><MovieList/>
-          </Link>)
-        })
-      }
+      <MovieList/>
     </div>
     </>
   )
