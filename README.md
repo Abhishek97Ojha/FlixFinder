@@ -1,4 +1,4 @@
-<h1 align="center">Movie App</h1>
+<h1 align="center">FlixFinder</h1>
 
 <p align="center">This project was created using HTML, CSS , JS and React JS.</p>
 
@@ -9,7 +9,7 @@ Open [https://movie-app-ashy-phi.vercel.app/](https://movie-app-ashy-phi.vercel.
 
 ## Github Repository
 
-Open [https://github.com/Abhishek97Ojha/Movie-App](https://github.com/Abhishek97Ojha/Movie-App) to view it in your browser.
+Open [https://github.com/Abhishek97Ojha/FlixFinder](https://github.com/Abhishek97Ojha/FlixFinder) to view it in your browser.
 
 ## Api provider 
 [https://www.themoviedb.org/](https://www.themoviedb.org/)
