@@ -28,14 +28,12 @@
 
 .headerIcon{
     /* font-size: 2.5rem !important; */
-    border: 2px solid red;
+/*     border: 2px solid red; */
     width: 20%;
     height: 8svh;
 }
-.headerIcon>img{
-    border: 2px solid green;
-    width: 100%;
-    height: 100%;
+.headerIcon>h1{
+    color:red;
 }
 .navbar{
     display: flex;
