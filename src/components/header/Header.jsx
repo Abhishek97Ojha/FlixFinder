@@ -12,8 +12,7 @@ const Header = () => {
       <div className="header">
         <div className="headerLeft">
           <Link to="/" className="headerIcon">
-//             Movie App
-             <img src="./logoImg.png" alt="" />
+            <h1>FlixFinder</h1>
           </Link>
           <div className="navbar">
             <Link to="/movies/popular">Popular</Link>
