@@ -12,14 +12,15 @@ const Header = () => {
       <div className="header">
         <div className="headerLeft">
           <Link to="/" className="headerIcon">
-            Movie App
+//             Movie App
+             <img src="./logoImg.png" alt="" />
           </Link>
           <div className="navbar">
             <Link to="/movies/popular">Popular</Link>
             <Link to="/movies/top_rated">Top Rated</Link>
             <Link to="/movies/upcoming">Upcoming</Link>
           </div>
-          <Link to="search">Search</Link>
+          <Link to="search" className="search">Search</Link>
         </div>
       </div>
     </>
